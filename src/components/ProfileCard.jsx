@@ -34,11 +34,27 @@ const ProfileCard = ({ userData }) => {
 
             <div className=" flex flex-col gap-y-2">
               <p className=" text-lg font-light">
-                Location: <span className=" font-extrabold">{userData.location}</span>
-              </p>
-              <p className=" text-lg font-light">
                 Repo: <span className=" font-extrabold">{userData.public_repos}</span>
               </p>
+              <p className=" text-lg font-light">
+                Location: <span className=" font-extrabold">{userData.location}</span>
+              </p>
+            </div>
+          </div>
+
+          <div className=" flex justify-between w-[450px] mt-5">
+            <div className=" flex flex-col gap-y-2">
+              {/* <p className=" text-lg font-light"> Followers: <span className=" font-extrabold">{userData.followers}</span> </p>
+              <p className=" text-lg font-light"> Following: <span className=" font-extrabold">{userData.following}</span> </p> */}
+            </div>
+
+            <div className=" flex flex-col gap-y-2">
+              {/* <p className=" text-lg font-light">
+                Repo: <span className=" font-extrabold">{userData.public_repos}</span>
+              </p>
+              <p className=" text-lg font-light">
+                Location: <span className=" font-extrabold">{userData.location}</span>
+              </p> */}
             </div>
           </div>
         </div>

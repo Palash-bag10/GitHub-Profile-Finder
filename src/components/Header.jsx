@@ -40,7 +40,7 @@ const Header = () => {
                 <div className=" w-8/12 flex items-center justify-between mx-auto gap-5 py-4 px-8 ">
                     {/* Logo */}
                     <div>
-                        <h1 className=" text-lg">Dev Detective</h1>
+                        <h1 className=" text-lg font-bold ">Dev Detective</h1>
                     </div>
 
                     {/* Search Box */}
